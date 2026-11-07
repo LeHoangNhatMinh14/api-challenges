@@ -1,0 +1,8 @@
+# the API under test is not mine to redistribute: keep the jar out of Git
+sut/*.jar
+# load test output
+results/
+# editors / OS
+.vscode/
+.idea/
+.DS_Store

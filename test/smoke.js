@@ -76,7 +76,7 @@ function descriptionIsString(response) {
   return everyItemHasField(response, 'description', 'string');
 }
 
-function isbn13IsNumber(response) {
+function isbn13IsString(response) {
   return everyItemHasField(response, 'isbn13', 'string');
 }
 
@@ -98,7 +98,7 @@ export default function () {
     'items is a list': itemsIsAList,
         'every item has id (number)': idIsNumber,
     'every item has type (string)': typeIsString,
-    'every item has isbn13 (number)': isbn13IsNumber,
+    'every item has isbn13 (string)': isbn13IsString,
     'every item has price (number)': priceIsNumber,
     'every item has a number in stock (number)': numberinstockIsNumber,
   });
